@@ -55,10 +55,14 @@ public class Main {
 
         //exemple clasa Sportiv - Inotator
 
-        Inotator inotator1 = new Inotator();
-        Maratonist maratonist1 = new Maratonist();
+        Inotator inotator1 = new Inotator("Popescu", "RO");
+        Maratonist maratonist1 = new Maratonist("Ionescu", "RO");
         inotator1.seAntreneaza();
         inotator1.seOdihneste();
         maratonist1.seOdihneste();
+
+        Fotbalist fotbalist1 = new Fotbalist("Mbappe", "FR");
+        fotbalist1.seOdihneste();
+
     }
 }
